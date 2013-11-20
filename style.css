@@ -1,1 +1,49 @@
-/*my commit*/
+.grid{
+    padding: 20px 20px 100px 20px;
+    max-width: 1300px;
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+.grid li{
+    display: inline-block;
+    width: 440px;
+    margin: 0;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+}
+.grid figure{
+    margin: 0;
+    position: relative;
+}
+.grid figure img{
+    max-width: 100%;
+    display: block;
+    position: relative;
+}
+.grid figcaption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background: #2c3f52;
+    color: #ed4e6e;
+}
+.grid h3{
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.grid figcaption span:before{
+    content: 'by ';
+}
+.grid figcaption a{
+    text-align: center;
+    text-decoration: none;
+    background: #ed4e6e;
+    color: #ffffff;
+    border-radius: 2px;
+    padding: 5px 10px;
+    display: inline-block;
+}
